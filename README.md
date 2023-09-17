@@ -1,3 +1,6 @@
+# random-spinner
+A wheel that spins and selects a random item.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
