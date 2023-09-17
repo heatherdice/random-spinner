@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Spinner from './pages/spinner.js';
+import Spinner from './components/spinner.js';
 
 function App() {
   return (
