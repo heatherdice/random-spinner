@@ -1,16 +1,16 @@
 import React from "react";
 import WheelComponent from 'react-wheel-of-prizes';
-import useResponsive from '../hooks/useResponsive';
+// import useResponsive from '../hooks/useResponsive';
 
 function Spinner() {
     // responsive styling props & functions
-    const {mobileScreen} = useResponsive();
-    let wheelSize;
-    if (mobileScreen) {
-        wheelSize = 200;
-    } else {
-        wheelSize = 250;
-    }; // issue: if mobileScreen is set to false on initial load, component will not recognize initial need for mobile sizing onLoad
+    // const {mobileScreen} = useResponsive();
+    // let wheelSize;
+    // if (mobileScreen) {
+    //     wheelSize = "200px";
+    // } else {
+    //     wheelSize = "250px";
+    // }; // issue: if mobileScreen is set to false on initial load, component will not recognize initial need for mobile sizing onLoad
     // console.log(wheelSize);
 
     // spinner props
@@ -34,7 +34,7 @@ function Spinner() {
         alert(winner);
     };
     return (
-        <div className={wheelSize}>
+        <div className="w-full">
             <WheelComponent
                 segments={segments}
                 segColors={segColors}
