@@ -1,5 +1,5 @@
 # random-spinner
-A wheel that spins and selects a random item.
+A wheel that spins and selects a random item from a list populated by the user.
 
 # Getting Started with Create React App
 
