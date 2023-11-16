@@ -2,7 +2,9 @@ import React from "react";
 import WheelComponent from 'react-wheel-of-prizes';
 // import useResponsive from '../hooks/useResponsive';
 
-function Spinner() {
+function Spinner(props) {
+    //? This is the name list for populating the wheel, if there is a certain structure needed then jsut let me know
+    const {nameList} = props
     // responsive styling props & functions
     // const {mobileScreen} = useResponsive();
     // let wheelSize;

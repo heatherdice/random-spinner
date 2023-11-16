@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+/* Added display flex to the App so the form and wheel sit side by side */
+  display: flex;
 }
 
 .App-logo {
